@@ -1,0 +1,54 @@
+-------- C++ Stack --------
+
+#include <iostream>
+#include <stack>
+
+using namespace std;
+
+int main() {
+    // stack utk string
+    stack<string> languages;
+
+    
+    // masukan elemen
+    languages.push("C++");
+    languages.push("Java");
+    languages.push("Python");
+    
+    // print
+    cout << languages.top();
+
+    return 0;
+}
+
+-------- C++ Queue --------
+
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+int main() {
+
+  // queue utk string
+  queue<string> animals;
+
+  // masukan elemen
+  animals.push("Cat");
+  animals.push("Dog");
+  
+  cout << "Queue: ";
+
+  // print loop queue
+  while(!animals.empty()) {
+
+    cout << animals.front() << ", ";
+
+    // utk pop elemen
+    animals.pop();
+  }
+
+  cout << endl;
+ 
+  return 0;
+}
