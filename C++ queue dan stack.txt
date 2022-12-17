@@ -1,4 +1,6 @@
--------- C++ Stack --------
+// Muhammad Al Fudhail (H071211033)
+
+// C++ Stack
 
 #include <iostream>
 #include <stack>
@@ -21,7 +23,7 @@ int main() {
     return 0;
 }
 
--------- C++ Queue --------
+// C++ Queue
 
 #include <iostream>
 #include <queue>
